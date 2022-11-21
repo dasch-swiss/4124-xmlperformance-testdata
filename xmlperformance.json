@@ -1,0 +1,119 @@
+{
+    "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/ontology.json",
+    "project": {
+        "shortcode": "4124",
+        "shortname": "xmlperformance",
+        "longname": "test project for performance measuring of dsp-tools xmlupload",
+        "descriptions": {
+            "en": "test project for performance measuring of dsp-tools xmlupload"
+        },
+        "keywords": [
+            "test"
+        ],
+        "ontologies": [
+            {
+                "name": "xmlperformance",
+                "label": "xmlperformance",
+                "properties": [
+                    {
+                        "name": "hasText",
+                        "super": [
+                            "hasValue"
+                        ],
+                        "object": "TextValue",
+                        "labels": {
+                            "en": "Text"
+                        },
+                        "gui_element": "SimpleText"
+                    }
+                ],
+                "resources": [
+                    {
+                        "name": "ImageThing",
+                        "super": "StillImageRepresentation",
+                        "labels": {
+                            "en": "An Image Thing"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasText",
+                                "gui_order": 1,
+                                "cardinality": "0-1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "AudioThing",
+                        "super": "AudioRepresentation",
+                        "labels": {
+                            "en": "An Audio Thing"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasText",
+                                "gui_order": 1,
+                                "cardinality": "0-1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "MovieThing",
+                        "super": "MovingImageRepresentation",
+                        "labels": {
+                            "en": "An Movie Thing"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasText",
+                                "gui_order": 1,
+                                "cardinality": "0-1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "DocumentThing",
+                        "super": "DocumentRepresentation",
+                        "labels": {
+                            "en": "A Document Thing"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasText",
+                                "gui_order": 1,
+                                "cardinality": "0-1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ZipThing",
+                        "super": "ArchiveRepresentation",
+                        "labels": {
+                            "en": "A ZIP Thing"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasText",
+                                "gui_order": 1,
+                                "cardinality": "0-1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "TextThing",
+                        "super": "TextRepresentation",
+                        "labels": {
+                            "en": "A Text Thing"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasText",
+                                "gui_order": 1,
+                                "cardinality": "0-1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

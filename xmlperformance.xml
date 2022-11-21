@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<knora xmlns="https://dasch.swiss/schema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd"
+       shortcode="4124"
+       default-ontology="xmlperformance">
+
+    <permissions id="res-default">
+        <allow group="UnknownUser">RV</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="Creator">M</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+    <permissions id="prop-default">
+        <allow group="UnknownUser">V</allow>
+        <allow group="KnownUser">V</allow>
+        <allow group="Creator">D</allow>
+        <allow group="ProjectAdmin">CR</allow>
+    </permissions>
+
+    <!-- 100 KB -->
+    <resource label="0.1.docx"
+              restype=":DocumentThing"
+              id="_0.1.docx"
+              permissions="res-default">
+        <bitstream>bitstreams/0.1.docx</bitstream>
+    </resource>
+
+    <resource label="0.1.jpeg"
+              restype=":ImageThing"
+              id="_0.1.jpeg"
+              permissions="res-default">
+        <bitstream>bitstreams/0.1.jpeg</bitstream>
+    </resource>
+
+    <resource label="0.1.mp3"
+              restype=":AudioThing"
+              id="_0.1.mp3"
+              permissions="res-default">
+        <bitstream>bitstreams/0.1.mp3</bitstream>
+    </resource>
+
+    <!-- Doesn't work for strange reason. See bug report at DEV-1513
+    <resource label="0.1.mp4"
+              restype=":MovieThing"
+              id="_0.1.mp4"
+              permissions="res-default">
+        <bitstream>bitstreams/0.1.mp4</bitstream>
+    </resource>
+    -->
+
+    <resource label="0.1.txt"
+              restype=":TextThing"
+              id="_0.1.txt"
+              permissions="res-default">
+        <bitstream>bitstreams/0.1.txt</bitstream>
+    </resource>
+
+    <resource label="0.1.zip"
+              restype=":ZipThing"
+              id="_0.1.zip"
+              permissions="res-default">
+        <bitstream>bitstreams/0.1.zip</bitstream>
+    </resource>
+
+    <!-- 1 MB -->
+    <resource label="1.docx"
+              restype=":DocumentThing"
+              id="_1.docx"
+              permissions="res-default">
+        <bitstream>bitstreams/1.docx</bitstream>
+    </resource>
+
+    <resource label="1.jpeg"
+              restype=":ImageThing"
+              id="_1.jpeg"
+              permissions="res-default">
+        <bitstream>bitstreams/1.jpeg</bitstream>
+    </resource>
+
+    <resource label="1.mp3"
+              restype=":AudioThing"
+              id="_1.mp3"
+              permissions="res-default">
+        <bitstream>bitstreams/1.mp3</bitstream>
+    </resource>
+
+    <resource label="1.mp4"
+              restype=":MovieThing"
+              id="_1.mp4"
+              permissions="res-default">
+        <bitstream>bitstreams/1.mp4</bitstream>
+    </resource>
+
+    <resource label="1.txt"
+              restype=":TextThing"
+              id="_1.txt"
+              permissions="res-default">
+        <bitstream>bitstreams/1.txt</bitstream>
+    </resource>
+
+    <resource label="1.zip"
+              restype=":ZipThing"
+              id="_1.zip"
+              permissions="res-default">
+        <bitstream>bitstreams/1.zip</bitstream>
+    </resource>
+
+    <!-- 10 MB -->
+    <resource label="10.docx"
+              restype=":DocumentThing"
+              id="_10.docx"
+              permissions="res-default">
+        <bitstream>bitstreams/10.docx</bitstream>
+    </resource>
+
+    <resource label="10.jpeg"
+              restype=":ImageThing"
+              id="_10.jpeg"
+              permissions="res-default">
+        <bitstream>bitstreams/10.jpeg</bitstream>
+    </resource>
+
+    <resource label="10.mp3"
+              restype=":AudioThing"
+              id="_10.mp3"
+              permissions="res-default">
+        <bitstream>bitstreams/10.mp3</bitstream>
+    </resource>
+
+    <resource label="10.mp4"
+              restype=":MovieThing"
+              id="_10.mp4"
+              permissions="res-default">
+        <bitstream>bitstreams/10.mp4</bitstream>
+    </resource>
+
+    <resource label="10.txt"
+              restype=":TextThing"
+              id="_10.txt"
+              permissions="res-default">
+        <bitstream>bitstreams/10.txt</bitstream>
+    </resource>
+
+    <resource label="10.zip"
+              restype=":ZipThing"
+              id="_10.zip"
+              permissions="res-default">
+        <bitstream>bitstreams/10.zip</bitstream>
+    </resource>
+
+    <!-- 100 MB -->
+    <resource label="100.docx"
+              restype=":DocumentThing"
+              id="_100.docx"
+              permissions="res-default">
+        <bitstream>bitstreams/100.docx</bitstream>
+    </resource>
+
+    <resource label="100.jpeg"
+              restype=":ImageThing"
+              id="_100.jpeg"
+              permissions="res-default">
+        <bitstream>bitstreams/100.jpeg</bitstream>
+    </resource>
+
+    <resource label="100.mp3"
+              restype=":AudioThing"
+              id="_100.mp3"
+              permissions="res-default">
+        <bitstream>bitstreams/100.mp3</bitstream>
+    </resource>
+
+    <!-- Doesn't work for strange reason. See bug report at DEV-1513
+    <resource label="100.mp4"
+              restype=":MovieThing"
+              id="_100.mp4"
+              permissions="res-default">
+        <bitstream>bitstreams/100.mp4</bitstream>
+    </resource>
+    -->
+
+    <resource label="100.txt"
+              restype=":TextThing"
+              id="_100.txt"
+              permissions="res-default">
+        <bitstream>bitstreams/100.txt</bitstream>
+    </resource>
+
+    <resource label="100.zip"
+              restype=":ZipThing"
+              id="_100.zip"
+              permissions="res-default">
+        <bitstream>bitstreams/100.zip</bitstream>
+    </resource>
+
+</knora>
