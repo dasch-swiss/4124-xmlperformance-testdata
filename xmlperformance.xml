@@ -41,14 +41,12 @@
         <bitstream>bitstreams/0.1.mp3</bitstream>
     </resource>
 
-    <!-- Doesn't work for strange reason. See bug report at DEV-1513
     <resource label="0.1.mp4"
               restype=":MovieThing"
               id="_0.1.mp4"
               permissions="res-default">
         <bitstream>bitstreams/0.1.mp4</bitstream>
     </resource>
-    -->
 
     <resource label="0.1.txt"
               restype=":TextThing"
@@ -172,14 +170,12 @@
         <bitstream>bitstreams/100.mp3</bitstream>
     </resource>
 
-    <!-- Doesn't work for strange reason. See bug report at DEV-1513
     <resource label="100.mp4"
               restype=":MovieThing"
               id="_100.mp4"
               permissions="res-default">
         <bitstream>bitstreams/100.mp4</bitstream>
     </resource>
-    -->
 
     <resource label="100.txt"
               restype=":TextThing"
