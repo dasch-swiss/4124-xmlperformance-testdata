@@ -68,6 +68,11 @@ The SIPI call duration increases with file size, over all file types. The averag
 - 5.5 - 7.0 s for the 10 MB files
 - 60  - 70  s for the 100 MB files
 
+While there is some variance in the data, the performance remains stable over time. This can be seen in these two 
+diagrams, where the same 1 MB image file was uploaded 1000 times in row:  
+<img src="metrics/2022-11-30_174912_metrics_localhost_one_file.png" alt="metrics/2022-11-30_174912_metrics_localhost_one_file.png" width="700"/>  
+<img src="metrics/2022-11-30_204645_metrics_localhost_one_file.png" alt="metrics/2022-11-30_204645_metrics_localhost_one_file.png" width="700"/>  
+
 **These times are not acceptable for localhost, but I don't know how to investigate this further.** I only have one 
 observation: dsp-tools opens the file and sends it as stream to SIPI, instead of sending it directly, see 
 [this line of code](https://github.com/dasch-swiss/dsp-tools/blob/main/knora/dsplib/models/sipi.py#L42).
