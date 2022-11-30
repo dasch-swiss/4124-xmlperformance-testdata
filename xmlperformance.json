@@ -25,9 +25,39 @@
                             "en": "Text"
                         },
                         "gui_element": "SimpleText"
+                    },
+                    {
+                        "name": "hasLink",
+                        "super": [
+                            "hasLinkTo"
+                        ],
+                        "object": "Resource",
+                        "labels": {
+                            "en": "has link to Resource"
+                        },
+                        "gui_element": "Searchbox"
                     }
                 ],
                 "resources": [
+                    {
+                        "name": "PlainResource",
+                        "super": "Resource",
+                        "labels": {
+                            "en": "A plain resource"
+                        },
+                        "cardinalities": [
+                            {
+                                "propname": ":hasText",
+                                "gui_order": 1,
+                                "cardinality": "0-n"
+                            },
+                            {
+                                "propname": ":hasLink",
+                                "gui_order": 2,
+                                "cardinality": "0-n"
+                            }
+                        ]
+                    },
                     {
                         "name": "ImageThing",
                         "super": "StillImageRepresentation",
@@ -38,7 +68,7 @@
                             {
                                 "propname": ":hasText",
                                 "gui_order": 1,
-                                "cardinality": "0-1"
+                                "cardinality": "0-n"
                             }
                         ]
                     },
@@ -52,7 +82,7 @@
                             {
                                 "propname": ":hasText",
                                 "gui_order": 1,
-                                "cardinality": "0-1"
+                                "cardinality": "0-n"
                             }
                         ]
                     },
@@ -66,7 +96,7 @@
                             {
                                 "propname": ":hasText",
                                 "gui_order": 1,
-                                "cardinality": "0-1"
+                                "cardinality": "0-n"
                             }
                         ]
                     },
@@ -80,7 +110,7 @@
                             {
                                 "propname": ":hasText",
                                 "gui_order": 1,
-                                "cardinality": "0-1"
+                                "cardinality": "0-n"
                             }
                         ]
                     },
@@ -94,7 +124,7 @@
                             {
                                 "propname": ":hasText",
                                 "gui_order": 1,
-                                "cardinality": "0-1"
+                                "cardinality": "0-n"
                             }
                         ]
                     },
@@ -108,7 +138,7 @@
                             {
                                 "propname": ":hasText",
                                 "gui_order": 1,
-                                "cardinality": "0-1"
+                                "cardinality": "0-n"
                             }
                         ]
                     }
