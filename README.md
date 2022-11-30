@@ -38,7 +38,7 @@ First, create the project `xmlperformance` with
 dsp-tools create xmlperformance.json
 ```
 
-Then, upload the data files with
+Then, check out the branch `wip/dev-1512-introduce-metrics` of dsp-tools and upload the data files with
 
 ```
 dsp-tools xmlupload --metrics xml_files/all_files.xml
