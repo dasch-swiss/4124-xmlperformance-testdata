@@ -12,7 +12,7 @@ def main():
             restype=":ImageThing",
             id=identifier
         )
-        resource.append(excel2xml.make_bitstream_prop("../bitstreams/1.jpeg"))
+        resource.append(excel2xml.make_bitstream_prop("bitstreams/1.jpeg"))
         resource.append(excel2xml.make_text_prop(":hasText", f"text field of {identifier}"))
         root.append(resource)
     excel2xml.write_xml(root, "../xml_files/one_file.xml")
