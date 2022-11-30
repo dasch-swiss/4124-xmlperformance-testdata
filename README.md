@@ -69,7 +69,7 @@ The SIPI call duration increases with file size, over all file types. The averag
 - 60  - 70  s for the 100 MB files
 
 While there is some variance in the data, the performance remains stable over time. This can be seen in these two 
-diagrams, where the same 1 MB image file was uploaded 1000 times in row:  
+diagrams, where the same 1 MB image file was uploaded 1000 times in row (and then again a second 1000 times):  
 <img src="metrics/2022-11-30_174912_metrics_localhost_one_file.png" alt="metrics/2022-11-30_174912_metrics_localhost_one_file.png" width="700"/>  
 <img src="metrics/2022-11-30_204645_metrics_localhost_one_file.png" alt="metrics/2022-11-30_204645_metrics_localhost_one_file.png" width="700"/>  
 
